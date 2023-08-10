@@ -3,6 +3,7 @@ const htmlRoutes = require("./routes/routes")
 
 const PORT =  process.env.PORT || 3000;
 
+
 const app = express();
 // app.use -->  is configuration middleware
  app.use(express.json());
